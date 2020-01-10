@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item android:top="20dp">
+        <bitmap android:src="@drawable/offset_drug"
+            android:gravity="center_vertical|center_horizontal" />
+    </item>
+    <item>
+        <shape android:shape="rectangle">
+            <size android:width="330dp" android:height="230dp"  />
+            <solid android:color="#8F7AB6" />
+            <corners android:radius="15dp"
+                />
+        </shape>
+
+    </item>
+
+
+
+</layer-list>

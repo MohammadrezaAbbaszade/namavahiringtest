@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item>
+        <shape android:shape="rectangle">
+            <size
+                android:width="400dp"
+                android:height="130dp" />
+            <corners android:radius="150dp" />
+        </shape>
+    </item>
+
+    <item>
+        <bitmap android:src="@drawable/drugs" />
+    </item>
+
+    <item>
+        <shape android:shape="rectangle">
+            <gradient
+                android:angle="180"
+                android:endColor="#CC11998E"
+                android:startColor="#CC38EF7D" />
+        </shape>
+    </item>
+
+
+</layer-list>
