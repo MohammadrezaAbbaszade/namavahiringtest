@@ -16,7 +16,6 @@ import com.example.namavahiringtest.repository.Repository;
 import com.google.android.material.tabs.TabLayout;
 
 public class MainActivity extends AppCompatActivity {
-    private RecyclerView mRecyclerView;
     private ViewPager mViewPager;
     private TabLayout mTabLayout;
 

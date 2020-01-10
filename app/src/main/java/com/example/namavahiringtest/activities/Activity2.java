@@ -17,16 +17,14 @@ import androidx.appcompat.app.AppCompatActivity;
 import com.example.namavahiringtest.R;
 
 public class Activity2 extends AppCompatActivity {
-    private static final String ITEMS_PRICES = "price";
-    private static final String DRUG_DETAILS = "drugDetails";
-    public static final String POSITION = "position";
+    private static final String DRUG_DETAILS = "com.example.namavahiringtest.activities.drugDetails";
+    public static final String POSITION = "com.example.namavahiringtest.activities.position";
     private TextView mTextView;
     private ImageView mBackArrow;
     private TextView mCounterTextView;
     private TextView mDrugNameTextView;
     private TextView mDrugDetailTextView;
     private ImageView mImageView;
-    private ObjectAnimator mObjectAnimator;
     private Animation mAnimation;
     private ImageButton mAddImageButton;
     private ImageButton mDecImageButton;
@@ -87,7 +85,6 @@ public class Activity2 extends AppCompatActivity {
     @Override
     public void onBackPressed() {
         super.onBackPressed();
-        Log.d("destfragment", "onBackPressed");
         mTextView.startAnimation(mAnimation);
         supportFinishAfterTransition();
     }

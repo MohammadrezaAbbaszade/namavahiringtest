@@ -7,7 +7,6 @@ import java.util.List;
 
 public class Repository {
     private List<String> mTitlesLists = new ArrayList<>();
-    private List<String> mPricesLists = new ArrayList<>();
     private List<DrugInfo> mDrugDetails = new ArrayList<>();
     private static Repository mRepository;
 
@@ -42,9 +41,6 @@ public class Repository {
         return mTitlesLists;
     }
 
-    public List<String> getPricesLists() {
-        return mPricesLists;
-    }
 
     public List<DrugInfo> getDrugDetails() {
         return mDrugDetails;
